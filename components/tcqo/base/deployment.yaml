@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: tcqo
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-qxwv-tenant/byoc-app-xokx/tcqo@sha256:569c6b65e99ab2fc698241e0ed999e4d96a19e8a46aa64f4484ee145c1209b3f
         name: my-java-quarkus
         ports:
         - containerPort: 8081
